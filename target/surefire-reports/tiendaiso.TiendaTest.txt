@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: tiendaiso.TiendaTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE!
+tiendaiso.TiendaTest.testCalcularTotal()  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "tiendaiso.TiendaISO.calcularTotal()" because "instance" is null
+	at tiendaiso.TiendaTest.testCalcularTotal(TiendaTest.java:79)
+
+tiendaiso.TiendaTest.testMain()  Time elapsed: 0.02 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at tiendaiso.TiendaTest.testMain(TiendaTest.java:94)
+
+tiendaiso.TiendaTest.testCalcularSubtotal()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "tiendaiso.TiendaISO.calcularSubtotal()" because "instance" is null
+	at tiendaiso.TiendaTest.testCalcularSubtotal(TiendaTest.java:51)
+
+tiendaiso.TiendaTest.testCalcularDescuento()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "tiendaiso.TiendaISO.calcularDescuento()" because "instance" is null
+	at tiendaiso.TiendaTest.testCalcularDescuento(TiendaTest.java:65)
+
